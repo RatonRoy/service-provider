@@ -1,10 +1,13 @@
 import React from 'react';
+import './Footer.css';
 
 const Footer = () => {
 	return (
-		<div>
-			<h1> This text coming from the footer sections </h1>
-		</div>
+		<footer>
+			<div className="footer-end">
+				<p> All right is  reserved 	&copy; 2022</p>
+			</div>
+		</footer>
 	);
 };
 

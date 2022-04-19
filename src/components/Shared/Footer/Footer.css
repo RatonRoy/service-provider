@@ -1,0 +1,19 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.footer-end{
+	/* display: flex;
+	justify-content: center;
+	align-items: center; */
+	background-color: rgb(3, 30, 54); 
+	border: 1px solid red; 
+	/* padding: 0.5rem 1rem;  */
+	margin-bottom: 0;
+}
+footer p{
+	color: wheat;
+	
+	
+}

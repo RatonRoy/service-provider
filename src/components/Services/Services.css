@@ -1,5 +1,7 @@
 .services-wrap{
 	padding: 1rem; 
+	border: 1px solid red;
+	background-color: aquamarine;
 }
 .services-title{
 	text-align: center;
@@ -11,4 +13,9 @@
 	display: grid;
 	grid-template-columns: repeat(3, 1fr); 
 	grid-gap: 2rem;
+}
+@media screen and (max-width: 768px){
+	.services-container{
+		grid-template-columns: 1fr;
+	}
 }
