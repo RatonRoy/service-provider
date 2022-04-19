@@ -1,0 +1,26 @@
+[
+	{
+		"id" : 1,
+		"name" : "Physics",
+		"price" : 1000, 
+		"description" : " In this course I am provide you all the resources of Physics according to the hsc exam of 2022. If you follow our guid, you will make a good result in the finale exam.",
+		"img" : "https://i.ibb.co/6HNMYKG/physics-resize.jpg"
+	
+	},
+	{
+		"id" : 2,
+		"name" : "Chemistry",
+		"price" : 1000, 
+		"description" : " In this course I am provide you all the resources of Chemistry according to the hsc exam of 2022. If you follow our guid, you will make a good result in the finale exam.",
+		"img" : "https://i.ibb.co/jDmz5jc/chemistry-resize.jpg"
+	
+	},
+	{
+		"id" : 3,
+		"name" : "Mathematics",
+		"price" : 1000, 
+		"description" : " In this course I am provide you all the resources of Mathematics according to the hsc exam of 2022. If you follow our guid, you will make a good result in the finale exam.",
+		"img" : "https://i.ibb.co/42Rq1LC/math-resize.jpg"
+	
+	}
+]

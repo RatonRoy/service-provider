@@ -1,0 +1,14 @@
+.services-wrap{
+	padding: 1rem; 
+}
+.services-title{
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.15rem;
+	margin-bottom: 1rem;
+}
+.services-container{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr); 
+	grid-gap: 2rem;
+}
