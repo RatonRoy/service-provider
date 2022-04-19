@@ -1,8 +1,17 @@
 .banner-container{
-	background-image: "./img/banner.jpg";
+	
 }
 .banner-container img{
 	width: 100%;
 	position: relative;
 	z-index: -1;
+	height : 90vh;
+}
+.banner-text{
+	position: relative;
+	bottom: 400px; 
+	left: 450px;
+	font-weight: bold;
+	font-size: 2rem;
+	color: white;
 }

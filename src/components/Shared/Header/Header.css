@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 }
 .nav-container{
-	background-color: rgb(10, 10, 37);
+	background-color: rgb(17, 17, 102);
 }
 .nav-links{
 	width: 60vw;
@@ -16,7 +16,10 @@
 }
 .nav-link{
 	text-decoration: none;
-	color: white;
 	font-size: 1.4rem;
 	letter-spacing: 0.15rem;
+	color : white; 
+}
+Link{
+	/* color : white; */
 }

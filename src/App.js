@@ -9,10 +9,8 @@ function App() {
   return (
     <div className="">
       <Header> </Header>
-      <Home></Home>
       <Routes>
         <Route path='/' element = {<Home></Home>}> </Route>
-        {/* <Route path='/home' element = {<Home></Home>}> </Route> */}
       </Routes>
       <Footer></Footer>
     </div>
