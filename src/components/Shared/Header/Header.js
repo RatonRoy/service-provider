@@ -16,11 +16,15 @@ const Header = () => {
 				<Link to="/" className ='nav-link text-light'>Home</Link>
 				<Link to="/services" className ='nav-link text-light'>Services</Link>
 				<Link to="/checkout" className ='nav-link text-light'> Checkout </Link>
+				<Link to="/blog" className='nav-link text-light'>
+					Blog 
+				</Link>
+				<Link to="/about" className ='nav-link text-light'>About Me </Link>
 				{ user ? <Link className='nav-link text-light' onClick={handleSignOut} to = "/login"> Log Out </Link>
 					
 				:	<Link to="/login" className='nav-link text-light'>Login</Link>
 				}
-				<Link to="/about" className ='nav-link text-light'>About Us </Link>
+				
 			</div>
 		</nav>
 	);

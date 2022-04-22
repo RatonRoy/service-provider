@@ -1,0 +1,31 @@
+.blog-container {
+	width: 80vw;
+	margin: 1rem auto;
+}
+
+.single-blog {
+	/* width: 45%; */
+}
+
+.question {
+	margin-bottom: 2rem;
+	text-align: center;
+}
+
+.authentication {}
+
+.answer-title {}
+
+.answer-lists {}
+
+.answer-container {
+	display: flex;
+	justify-content: space-between;
+}
+.authentication, .authorization {
+	width: 45%;
+}
+ul li {
+	padding: 1rem 0.5rem; 
+	font-size: 1rem;
+}
