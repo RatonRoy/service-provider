@@ -1,3 +1,4 @@
+import { sendPasswordResetEmail } from 'firebase/auth';
 import React, { useRef } from 'react';
 import { Button, Form } from 'react-bootstrap';
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
@@ -29,6 +30,20 @@ const Login = () => {
 	}
 	const navigateRegister = event => {
         navigate('/register');
+	}
+	let errorElement;
+	if (error) {
+        errorElement = <p className='text-danger'>Error: {error?.message}</p>
+	}
+	const resetPassword = async () => {
+        const email = emailRef.current.value;
+        if (email) {
+            await sendPasswordResetEmail(email);
+            // toast('Sent email');
+        }
+        else{
+            // toast('please enter your email address');
+        }
     }
 	return (
 		<div className='container w-50 mx-auto'>
@@ -44,8 +59,9 @@ const Login = () => {
 					Login
 				</Button>
 			</Form>
-			{/* {errorElement} */}
+			{errorElement}
 			<p>New to Science Tutor? <Link to="/register" className='text-primary pe-auto text-decoration-none' onClick={navigateRegister}>Please Register</Link> </p>
+			<p>Forget Password? <button className='btn btn-link text-primary pe-auto text-decoration-none' onClick={resetPassword}>Reset Password</button> </p>
 			<SocialLogin></SocialLogin>
 		</div>
 	);
