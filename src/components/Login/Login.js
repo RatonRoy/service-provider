@@ -11,6 +11,11 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const Login = () => {
+	const emailRef = useRef('');
+	const passwordRef = useRef('');
+	const navigate = useNavigate();
+	const location = useLocation(); 
+	
 	const [
 		signInWithEmailAndPassword,
 		user,
@@ -18,10 +23,7 @@ const Login = () => {
 		error,
 	] = useSignInWithEmailAndPassword(auth);
 	
-	const emailRef = useRef('');
-	const passwordRef = useRef('');
-	const navigate = useNavigate();
-	const location = useLocation();
+	
 	let from = location.state?.from?.pathname || "/";
 	if (user) {
 		navigate(from, { replace: true });
@@ -40,8 +42,9 @@ const Login = () => {
 	}
 	let errorElement;
 	if (error) {
-        errorElement = <p className='text-danger'>Error: {error?.message}</p>
+        errorElement = <p className='text-danger'>Error: {error?.message} </p>
 	}
+
 	const resetPassword = async () => {
         const email = emailRef.current.value;
         if (email) {
