@@ -49,7 +49,7 @@ const Blog = () => {
 				</h4>
 				<p className="answer">
 					I am using firebase for authentications are 
-					<ul>
+					<ul className='firebase'>
 						<li>Email/Password </li>
 						<li>Google</li>
 						<li>Github</li>
@@ -63,7 +63,7 @@ const Blog = () => {
 				</h4>
 				<p className="answer">
 				Other options  have to implement authentications are 
-					<ul>
+					<ul className='firebase'>
 						<li>Play Games</li>
 						<li>Phone</li>
 						<li>Game Center</li>
