@@ -20,8 +20,8 @@ const Banner = () => {
 					alt="First slide"
 				/>
 				<Carousel.Caption>
-					<h3>First slide label</h3>
-					<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+					<h3 className='text-dark'> Create a good environment for class work </h3>
+					<p className='text-dark'> We are not only focusing good student but also give proper guideline on back bencher students </p>
 				</Carousel.Caption>
 			</Carousel.Item>
 			<Carousel.Item>
@@ -32,8 +32,8 @@ const Banner = () => {
 				/>
 
 				<Carousel.Caption>
-					<h3>Second slide label</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<h3 className='text-dark'> We are provide best teacher for making a good class </h3>
+					<p className='text-dark'>Our class teacher are very friendly and responsible with students </p>
 				</Carousel.Caption>
 			</Carousel.Item>
 			<Carousel.Item>
@@ -44,9 +44,9 @@ const Banner = () => {
 				/>
 
 				<Carousel.Caption>
-					<h3>Third slide label</h3>
+					<h3> We take  special class for very week students </h3>
 					<p>
-						Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+						we fill proud when our student make a very good carrier for his future. 
 					</p>
 				</Carousel.Caption>
 			</Carousel.Item>
