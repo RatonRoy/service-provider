@@ -7,4 +7,5 @@
 * vanilla bootstrap
 * react router 
 * firebase authentication 
-* react toast 
+* react-firebase-hooks
+* react-toastify
